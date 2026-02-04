@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+.hidden { display: none; }
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(6, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #444;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.enemy { background: #666; }
+.hit { background: red; }
+.safe { background: green; }
