@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>Bomb Circles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="home">
+  <h1>Bomb Circles</h1>
+  <button id="createGame">פתח משחק</button>
+  <input id="joinCode" placeholder="קוד משחק">
+  <button id="joinGame">הצטרף</button>
+  <p id="homeStatus"></p>
+</div>
+
+<div id="game" class="hidden">
+  <h2 id="gameStatus"></h2>
+  <div id="nameInput" class="hidden">
+    <input id="playerName" placeholder="הכנס שם">
+    <button id="setName">אישור שם</button>
+  </div>
+  <div id="board"></div>
+  <p id="info"></p>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
